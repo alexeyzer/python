@@ -1,0 +1,20 @@
+{% extends 'polls/layout.html'%}
+
+{% block title %}
+    Colt Paterson (1836)
+{% endblock %}
+
+{% block content %}
+
+<p>
+    <h2 class="d-flex justify-content-center">{{ gun.title }}</h2>
+<p class="text-center">
+     <img src="{{gun.img}}">
+</p>
+<p class="d-flex justify-content-center">
+    <blockquote class="blockquote text-right">
+  <p class="mb-0">{{ gun.descripiton }}</p>
+</blockquote>
+</p>
+</p>
+{% endblock %}

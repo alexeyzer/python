@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Расскажи нам о себе пожалуйста!</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h3>Привет хотим тебе рассказать кое-что перед тем как ты введешь что-то</h3>
+		 <ol>
+			 <li>Вводить свои персональные данные надо только на проверенных сайтах</li>
+			 <li>Никогда не заходите на такие подозрительные сайты как этот</li>
+			 <li>Тем более не пишите данные своих банковский карточек</li>
+		 </ol>
+		 <h3>Теперь можно приступить</h3>
+		 <form>
+			 <fieldset>
+				 <div align="center">
+					<legend>Заполни меня пожалуйста</legend>
+					<p><img src="248664938.jpg" width="20%"></p>
+					<label for "yesno">Вы прочитали все пункты указанные выше?</label>
+					<p>
+						<input type="radio" name="yesno" value="Yes">Да</input>
+						<input type="radio" name="yesno" value="No"checked>Нет</input>
+					</p>
+					<label for "textmsg">Расскажите что вы думате по поводу ИБ</label>
+					<p><textarea name="textmsg"></textarea></p>
+					<label for "word">Напишите первое слово о котором вы подумали увидев слово: qwerty</label>
+					<p><input type="text" name="word"</p>
+					<label for "passwrd">На сколько надежен ваш пароль?</label>
+					<p><input type="checkbox" name="sixormore" value="yes" checked>Ваш пароль стостоит из 6 и более символов</p>
+					<p><input type="checkbox" name="specialznak" value="Yes">Содержит специальные знаки</p>
+					<p><label for="hard">На сколько сложным вы считаете свой пароль
+						<select size="1" name="hard">
+							<option value="P1">Сложный</option>
+							<option value="P2">Очень сложный</option>
+							<option selected value="P3">Средний</option>
+							<option value="P4">Простой</option>
+						</select>
+					</label> </p>
+					<p><label for="password">Введите свой пароль мы проверим его</label>
+						<input name="password" type="password">
+					</p>
+					<p>
+						<label for="level">Как тебе форма:)</label>
+						<p>
+						<select size="3" name="level">
+							<option>Выберите</option>
+							<option value="Круто">Круто</option>
+							<option value="Суперкласс">Суперкласс</option>
+						</select>
+						</p>
+					</p>
+					<label>
+						Выбери докмент:
+						<input type="text" name="datalist1" list="comp_combobox_datalist" size=40 maxlength=40 />
+						<datalist id="comp_combobox_datalist">
+							<option value="Паспорт"></option>
+							<option value="Права"></option>
+							<option selected value="Снилс"></option>
+							<option value="Студак"></option>
+						</datalist>
+					</label>
+					<p>
+						<label for "document">Введи номер документа</label>
+					</p>
+					<p><input type="text" name="documnt"></p>
+					<p>
+						<button type="submit">Отправить</button>
+					</p>
+					<p>
+						<button type="submit"><img src="6212924-1.jpg" ><br>Отправить но другой кнопкной</button>
+					</p>
+				 </div>
+			 </fieldset>
+		 </form>
+	</body>
+</html>

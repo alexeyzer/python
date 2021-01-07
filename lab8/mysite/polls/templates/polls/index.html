@@ -1,0 +1,17 @@
+{% extends 'polls/layout.html'%}
+
+{% block title %}
+    Главная страница
+{% endblock %}
+
+{% block content %}
+
+<p>
+	<h3 class="d-flex justify-content-center"><i class=" fas fa-poo-storm"></i>Оружие на выбор</h3>
+	<ol>
+    <a href="{% url 'paterson' %}"><li>Кольт Патерсон</li></a>
+        <a href="{% url 'ak47' %}"><li>Автомат Калашникова</li></a>
+        <a href="{% url 'svd' %}"><li>Снайперская винтовка Драгунова</li></a>
+    </ol>
+</p>
+{% endblock %}
